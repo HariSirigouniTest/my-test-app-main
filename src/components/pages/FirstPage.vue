@@ -18,7 +18,7 @@ import {   ShallowRef, inject, ref } from "vue";
 <template>
   <div class="card">
     <p>
-      This is from the FirstPage. 
+      This is from the FirstPage . 
     </p>
     Welcome back <h5> {{ authState?.idToken?.claims.name }} </h5> Click the button below to increase the count or click to logout. <br/>
     <button type="button" @click="count++">count is {{ count }}</button>
