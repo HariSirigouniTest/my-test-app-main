@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 
 const routes = [
     {
-        path: '/my-test-app/',
+        path: '/my-test-app-main/',
         component: () => import("../pages/FirstPage.vue"),
         name: 'First Page',
         meta: {
@@ -11,7 +11,7 @@ const routes = [
         }
     },
     {
-        path: '/my-test-app/login/callback',
+        path: '/my-test-app-main/login/callback',
         component: LoginCallback,
         redirectUri: './index.html'
     }
