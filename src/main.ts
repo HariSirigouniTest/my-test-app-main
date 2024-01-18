@@ -7,8 +7,8 @@ import OktaAuth from '@okta/okta-auth-js';
 import OktaVue from '@okta/okta-vue';
 
 const oktaAuth = new OktaAuth({
-    issuer: 'https://dev-48043447.okta.com/oauth2/default',
-    clientId: '0oadq2onsa44TXvRF5d7',
+    issuer: 'https://fclam-admin.oktapreview.com/oauth2/default',
+    clientId: '0oa1ydtko42BcK0GC0h8',
     redirectUri: window.location.origin + '/my-test-app-main/login/callback',
     scopes: ['openid', 'profile', 'email'],
     
